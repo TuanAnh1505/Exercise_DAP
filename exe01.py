@@ -56,7 +56,7 @@ def ex4():
 
     unique1=list(set(numbers1)-set(numbers2))
     print("The unique numbers in array 1 not found in arrat 2 are",unique1)
-    unique2=list(set(numbers1)-set(numbers2))
+    unique2=list(set(numbers2)-set(numbers1))
     print("The unique numbers in array 2 not found in arrat 1 are ,", unique2)
 def menu():
     while True:
